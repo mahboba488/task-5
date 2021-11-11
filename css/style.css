@@ -349,7 +349,7 @@ section {
 }
 
 .home .btn {
-  background: #fff;
+  color: #fff;
   border-color: #fff;
 }
 
@@ -675,5 +675,124 @@ section {
 
 .plan .box-container .box .amount span {
   font-size: 3rem;
+}
+
+.contact {
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.contact .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.contact .image img {
+  width: 100%;
+}
+
+.contact form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  padding: 2rem 7%;
+}
+
+.contact form .btn {
+  width: 100%;
+  text-align: center;
+}
+
+.contact form .btn:hover {
+  background: #130f40;
+}
+
+.contact form h3 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  color: #130f40;
+}
+
+.contact form .box, .contact form textarea {
+  width: 100%;
+  border-bottom: 0.2rem solid #130f40;
+  border-width: .1rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #130f40;
+  padding: 1.5rem 0;
+  margin: 1rem 0;
+}
+
+.contact form textarea {
+  height: 15rem;
+  resize: nobe;
+}
+
+.footer {
+  position: relative;
+  background: url(../image/footer_background.jpg) no-repeat;
+  background-position: center;
+  background-size: center;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+
+.footer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10rem;
+  width: 100%;
+}
+
+.footer .share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer .share a {
+  color: #fff;
+  border-color: #fff;
+}
+
+.footer .share a:hover {
+  color: #130f40;
+}
+
+.footer .share a::before {
+  background: #fff;
+}
+
+.footer .share a i {
+  padding-right: .5rem;
+}
+
+.footer .credit {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  margin-top: 2.5rem;
+}
+
+.footer .credit span {
+  color: #e67e22;
 }
 /*# sourceMappingURL=style.css.map */
